@@ -1,6 +1,6 @@
 var $frame = $('#photo-viewer');
 
-$(document).on('click','a',function(e){
+$(document).on('click','.thumb',function(e){
 	var $img,
 		src = this.href;
 
