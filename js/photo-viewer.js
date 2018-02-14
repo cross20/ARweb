@@ -18,3 +18,5 @@ $(document).on('click','.thumb',function(e){
 
 	$frame.empty().append($img);
 });
+
+$('.thumb').eq(0).click();
