@@ -9,7 +9,7 @@ $(document).on('click','a',function(e){
 
 	$img.attr({
 		'src':src,
-		'alt':this.title || "
+		'alt':this.title || ''
 	});
 
 	$frame.empty().append($img);
