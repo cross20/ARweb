@@ -10,8 +10,8 @@
 	height: 60px;}
 
 #thumbnails img {
-	max-width: 10%;
-	max-height: 10%;}
+	max-width: 100%;
+	max-height: 100%;}
 
 a.active {
 	opacity: 0.3;}
