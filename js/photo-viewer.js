@@ -1,4 +1,5 @@
 var $frame = $('#photo-viewer');
+	$thumb = $('.thumb');
 
 $(document).on('click','.thumb',function(e){
 	var $img,
@@ -6,6 +7,9 @@ $(document).on('click','.thumb',function(e){
 
 	e.preventDefault();
 	$img = $('<img/>');
+	
+	$thumbs.removeClass('active');
+	$(this).addClass('active');
 
 	$img.attr({
 		'src':src,
