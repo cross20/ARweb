@@ -9,5 +9,9 @@
 		margin: 10px 5px 0px 0px;
 	height: 60px;}
 
+#thumbnails img {
+	max-width: 10%;
+	max-height: 10%;}
+
 a.active {
 	opacity: 0.3;}
