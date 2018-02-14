@@ -1,5 +1,5 @@
 var $frame = $('#photo-viewer');
-	$thumb = $('.thumb');
+	$thumbs = $('.thumb');
 
 $(document).on('click','.thumb',function(e){
 	var $img,
